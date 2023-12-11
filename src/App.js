@@ -5,7 +5,7 @@ import {
   Checkout,
   SearchResults,
   ProductPage,
-  FooterWithSitemap
+  // FooterWithSitemap
 } from "./components";
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
-      <FooterWithSitemap/>
+      {/* <FooterWithSitemap/> */}
     </BrowserRouter>
   );
 };
